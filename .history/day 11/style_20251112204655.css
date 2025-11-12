@@ -1,15 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body{
-    height: 100%;
-    width: 100%;
-}
-
-
+    }
 #hero{
     height: 100vh;
     background-image: url(photo-1712397943847-e104395a1a8b.avif);
