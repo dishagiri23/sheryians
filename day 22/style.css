@@ -19,40 +19,37 @@ html, body {
   gap: 10px;
   padding: 10px;
 }
-
-.left {
+.gallery .left {
   grid-area: left;
   margin-bottom: 10px;
   background-image: url(pikachu.jpg);
   background-size: cover;
   background-position: center;
 }
-
-.right-top {
+.gallery .right-top {
   grid-area: right-top;
   background-image: url(right-top.jpg);
   background-size: cover;
   background-position: center;
 }
-
-.right-bottom {
+.gallery .right-bottom {
   grid-area: right-bottom;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding-bottom: 10px;
 }
-.right-bottom .box1 {
+.gallery .right-bottom .box1 {
   background-image: url(div-1.jpg);
   background-size: cover;
   background-position: center;
 }
-.right-bottom .box2 {
+.gallery .right-bottom .box2 {
   background-image: url(div-2.jpg);
   background-size: cover;
   background-position: center;
 }
-.right-bottom .box3 {
+.gallery .right-bottom .box3 {
   background-image: url(div-3.jpg);
   background-size: cover;
   background-position: center;
