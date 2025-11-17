@@ -1,0 +1,109 @@
+//universal styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+// Variables (for reusability)
+$primary-color: #0260FF;
+$font-family: 'Segoe UI', sans-serif;
+
+
+// Main Navbar
+.nav-bar {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+// Logo + Heading Section
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+
+    i {
+        font-size: 40px;
+    }
+
+    #first-h2 {
+        font-size: 26px;
+        font-weight: 600;
+        font-family: $font-family;
+    }
+}
+
+// Center Links
+#center-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 90px;
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        font-family: $font-family;
+    }
+}
+
+// More Links Dropdown
+#more-links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+// Right Buttons Section
+#right-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 50px;
+
+    #first {
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        color: $primary-color;
+        background: transparent;
+        border: 2px solid $primary-color;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #second {
+        height: 40px;
+        width: 120px;
+        border-radius: 20px;
+        color: white;
+        background-color: $primary-color;
+        border: none;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+// Icon Style
+.ri-arrow-drop-down-line {
+    font-size: 25px;
+}
+
