@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -23,63 +24,59 @@ main {
   width: 100%;
   background-color: whitesmoke;
 }
-
-.logo {
+.nav-bar .logo {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-left: 20px;
 }
-.logo i {
+.nav-bar .logo i {
   font-size: 40px;
 }
-.logo #first-h2 {
+.nav-bar .logo #first-h2 {
   font-size: 26px;
   font-weight: 600;
   font-family: "Segoe UI", sans-serif;
 }
-
-#center-links {
+.nav-bar #center-links {
   display: flex;
   align-items: center;
   gap: 40px;
   margin-left: 90px;
 }
-#center-links a {
+.nav-bar #center-links a {
   text-decoration: none;
   font-size: 18px;
   color: black;
   font-family: "Segoe UI", sans-serif;
 }
-
-#more-links {
+.nav-bar #more-links {
   display: flex;
   align-items: center;
   gap: 5px;
 }
-
-#right-buttons {
+.nav-bar #right-buttons {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-right: 50px;
 }
-#right-buttons #first {
+.nav-bar #right-buttons #first {
   height: 40px;
   width: 100px;
   border-radius: 20px;
-  color: #0260FF;
+  color: #0260ff;
   background: transparent;
-  border: 2px solid #0260FF;
+  border: 2px solid #0260ff;
   font-size: 15px;
   font-weight: 500;
 }
-#right-buttons #second {
+.nav-bar #right-buttons #second {
   height: 40px;
   width: 120px;
   border-radius: 20px;
   color: white;
-  background-color: #0260FF;
+  background-color: #0260ff;
   border: none;
   font-size: 15px;
   font-weight: 500;
@@ -95,24 +92,20 @@ main {
   text-align: center;
   background-color: #f4f4f9;
 }
-
-#heading-p {
+#first-section #heading-p {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  margin-bottom: 30px;
   gap: 50px;
+  margin-bottom: 30px;
 }
-
-#heading-1st-section {
+#first-section #heading-1st-section {
   font-size: 36px;
   font-weight: 600;
   font-family: "Segoe UI", sans-serif;
   color: #333;
   margin-left: 50px;
 }
-
-#p-1st-section {
+#first-section #p-1st-section {
   font-size: 16px;
   font-weight: 300;
   opacity: 0.5;
@@ -120,51 +113,37 @@ main {
   margin-top: 20px;
   text-align: left;
 }
-
-#first-button-div {
+#first-section #first-button-div {
   display: flex;
   gap: 15px;
   align-items: center;
 }
-
-#gs, #ft {
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* Adjusting the Get Started Button */
-#gs {
+#first-section #first-button-div #gs {
   margin-left: 350px;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 45px;
   width: 150px;
   border-radius: 30px;
   color: white;
-  background-color: #0260FF;
+  background-color: #0260ff;
   border: none;
   font-size: 14px;
   font-weight: 400;
   gap: 8px;
-  text-align: start;
+  text-align: center;
 }
-
-/* Making sure the icon aligns well with the text */
-#gs i {
-  font-size: 20px; /* Adjust icon size to match text */
+#first-section #first-button-div #gs i {
+  font-size: 20px;
 }
-
-/* Keep other styles for #ft intact */
-#ft {
+#first-section #first-button-div #ft {
   height: 40px;
   width: 110px;
   border-radius: 20px;
-  color: #0260FF;
+  color: #0260ff;
   background: transparent;
-  border: 2px solid #0260FF;
+  border: 2px solid #0260ff;
   font-size: 14px;
   font-weight: 400;
 }
@@ -176,8 +155,7 @@ main {
   height: 50%;
   width: 100%;
 }
-
-#section-image {
+#image-section #section-image {
   width: 100%;
   height: 50%;
   border-radius: 10px;

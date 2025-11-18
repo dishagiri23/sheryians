@@ -1,214 +1,187 @@
-//universal styles
+
+// Universal Styles
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-
-main{
-    height: 100%;
-    width: 100%;
+main {
+  height: 100%;
+  width: 100%;
 }
 
-
-// Variables (for reusability)
-$primary-color: #0260FF;
-$font-family: 'Segoe UI', sans-serif;
-
+// Variables for Reusability
+$primary-color: #0260ff;
+$font-family: "Segoe UI", sans-serif;
 
 // Main Navbar
 .nav-bar {
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90px;
-    width: 100%;
-    background-color: whitesmoke;
-}
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  background-color: whitesmoke;
 
-// Logo + Heading Section
-.logo {
+  .logo {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-left: 20px;
 
     i {
-        font-size: 40px;
+      font-size: 40px;
     }
 
     #first-h2 {
-        font-size: 26px;
-        font-weight: 600;
-        font-family: $font-family;
+      font-size: 26px;
+      font-weight: 600;
+      font-family: $font-family;
     }
-}
+  }
 
-// Center Links
-#center-links {
+  #center-links {
     display: flex;
     align-items: center;
     gap: 40px;
     margin-left: 90px;
 
     a {
-        text-decoration: none;
-        font-size: 18px;
-        color: black;
-        font-family: $font-family;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+      font-family: $font-family;
     }
-}
+  }
 
-// More Links Dropdown
-#more-links {
+  #more-links {
     display: flex;
     align-items: center;
     gap: 5px;
-}
+  }
 
-// Right Buttons Section
-#right-buttons {
+  #right-buttons {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-right: 50px;
 
     #first {
-        height: 40px;
-        width: 100px;
-        border-radius: 20px;
-        color: $primary-color;
-        background: transparent;
-        border: 2px solid $primary-color;
-        font-size: 15px;
-        font-weight: 500;
+      height: 40px;
+      width: 100px;
+      border-radius: 20px;
+      color: $primary-color;
+      background: transparent;
+      border: 2px solid $primary-color;
+      font-size: 15px;
+      font-weight: 500;
     }
 
     #second {
-        height: 40px;
-        width: 120px;
-        border-radius: 20px;
-        color: white;
-        background-color: $primary-color;
-        border: none;
-        font-size: 15px;
-        font-weight: 500;
+      height: 40px;
+      width: 120px;
+      border-radius: 20px;
+      color: white;
+      background-color: $primary-color;
+      border: none;
+      font-size: 15px;
+      font-weight: 500;
     }
+  }
 }
 
 // Icon Style
 .ri-arrow-drop-down-line {
-    font-size: 25px;
+  font-size: 25px;
 }
-
 
 /* Section Styling */
 #first-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f4f4f9;
 
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #f4f4f9;
-}
-
-#heading-p {
+  #heading-p {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    gap: 50px;
     margin-bottom: 30px;
-    gap: 50px;;
+  }
 
-}
-
-#heading-1st-section {
+  #heading-1st-section {
     font-size: 36px;
     font-weight: 600;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: $font-family;
     color: #333;
-     margin-left: 50px;
-}
+    margin-left: 50px;
+  }
 
-#p-1st-section {
-
+  #p-1st-section {
     font-size: 16px;
     font-weight: 300;
     opacity: 0.5;
     width: 800px;
     margin-top: 20px;
     text-align: left;
+  }
 
-}
-
-#first-button-div {
-
+  #first-button-div {
     display: flex;
     gap: 15px;
     align-items: center;
 
+    #gs {
+      margin-left: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 45px;
+      width: 150px;
+      border-radius: 30px;
+      color: white;
+      background-color: $primary-color;
+      border: none;
+      font-size: 14px;
+      font-weight: 400;
+      gap: 8px;
+      text-align: center;
+      i {
+        font-size: 20px; // Adjust icon size to match text
+      }
+    }
+
+    #ft {
+      height: 40px;
+      width: 110px;
+      border-radius: 20px;
+      color: $primary-color;
+      background: transparent;
+      border: 2px solid $primary-color;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
 }
-
-#gs, #ft {
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
-
-
-/* Adjusting the Get Started Button */
-#gs {
-    margin-left: 350px;
-    display: flex;
-    align-items: center;
-    height: 45px;
-    width: 150px;
-    border-radius: 30px;
-    color: white;
-    background-color: $primary-color;
-    border: none;
-    font-size: 14px;
-    font-weight: 400;
-    gap: 8px; 
-    text-align: start;
-}
-
-/* Making sure the icon aligns well with the text */
-#gs i {
-    font-size: 20px; /* Adjust icon size to match text */
-}
-
-/* Keep other styles for #ft intact */
-#ft {
-    height: 40px;
-    width: 110px;
-    border-radius: 20px;
-    color: $primary-color;
-    background: transparent;
-    border: 2px solid $primary-color;
-    font-size: 14px;
-    font-weight: 400;
-}
-
 
 /* Image Section */
 #image-section {
-    margin-top: 40px;
-    padding: 20px;
-    height: 50%;
-    width: 100%;
-}
+  margin-top: 40px;
+  padding: 20px;
+  height: 50%;
+  width: 100%;
 
-#section-image {
+  #section-image {
     width: 100%;
     height: 50%;
     border-radius: 10px;
     object-fit: cover;
+  }
 }
