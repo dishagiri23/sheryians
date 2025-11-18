@@ -168,15 +168,15 @@ $font-family: 'Segoe UI', sans-serif;
     margin-left: 350px;
     display: flex;
     align-items: center;
-    height: 45px; /* Ensure height and width are the same */
-    width: 150px;  /* Same width as height to make it a square */
+    height: 45px;
+    width: 150px;
     border-radius: 30px;
     color: white;
     background-color: $primary-color;
     border: none;
     font-size: 14px;
     font-weight: 400;
-    gap: 8px;  /* Small gap between text and icon */
+    gap: 8px; 
     text-align: start;
 }
 
