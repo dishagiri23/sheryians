@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   height: 100%;
   width: 100%;
 }
@@ -88,7 +87,7 @@ main {
   font-size: 25px;
 }
 
-/* Section Styling */
+/* First Section */
 #first-section {
   margin: 15px;
   text-align: center;
@@ -212,6 +211,7 @@ main {
   height: auto;
 }
 
+/* Left Text Area */
 #third-first-div {
   flex: 1;
   display: flex;
@@ -220,6 +220,7 @@ main {
   text-align: left;
 }
 
+/* ABOUT US Button */
 #third-btn button {
   padding: 10px 25px;
   border-radius: 25px;
@@ -231,7 +232,7 @@ main {
   border: 1px solid black;
 }
 
-/* Heading + paragraph */
+/* Heading + Paragraph */
 #third-heading-para h1 {
   font-weight: 600;
   font-size: 32px;
@@ -245,7 +246,7 @@ main {
   width: 90%;
 }
 
-/* Right side Image */
+/* Right Side Image */
 #third-img {
   flex: 1;
   display: flex;

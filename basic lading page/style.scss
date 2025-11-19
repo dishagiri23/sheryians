@@ -1,4 +1,3 @@
-
 // Universal Styles
 * {
   margin: 0;
@@ -6,8 +5,7 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   height: 100%;
   width: 100%;
 }
@@ -22,7 +20,10 @@ main {
 $primary-color: #0260ff;
 $font-family: "Segoe UI", sans-serif;
 
-// Main Navbar
+// ==================================
+// Navbar Styling
+// ==================================
+
 .nav-bar {
   padding: 20px 40px;
   display: flex;
@@ -100,12 +101,15 @@ $font-family: "Segoe UI", sans-serif;
   }
 }
 
-// Icon Style
 .ri-arrow-drop-down-line {
   font-size: 25px;
 }
 
-/* Section Styling */
+// ==================================
+// Section Styling
+// ==================================
+
+/* First Section */
 #first-section {
   margin: 15px;
   text-align: center;
@@ -157,6 +161,7 @@ $font-family: "Segoe UI", sans-serif;
       font-weight: 400;
       gap: 8px;
       text-align: center;
+
       i {
         font-size: 20px; // Adjust icon size to match text
       }
@@ -190,18 +195,18 @@ $font-family: "Segoe UI", sans-serif;
   }
 }
 
+// ==================================
+// Second Section Styling
+// ==================================
 
-//second section
-#second-section{
+#second-section {
   padding: 90px;
   width: 100%;
   height: 40%;
   display: flex;
-
-
 }
 
-.number-div{
+.number-div {
   padding: 30px;
   display: flex;
   flex-direction: row;
@@ -210,22 +215,25 @@ $font-family: "Segoe UI", sans-serif;
   gap: 30px;
 }
 
-.number h1{
+.number h1 {
   font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 500;
 }
 
-.number p{
+.number p {
   font-size: 20px;
   opacity: 0.5;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.number{
+.number {
   text-align: center;
-
 }
+
+// ==================================
+// Third Section Styling
+// ==================================
 
 #third-section {
   margin: 15px;
@@ -240,7 +248,7 @@ $font-family: "Segoe UI", sans-serif;
   height: auto;
 }
 
-// /* Left text area */
+/* Left Text Area */
 #third-first-div {
   flex: 1;
   display: flex;
@@ -249,7 +257,7 @@ $font-family: "Segoe UI", sans-serif;
   text-align: left;
 }
 
-// /* ABOUT US button */
+/* ABOUT US Button */
 #third-btn button {
   padding: 10px 25px;
   border-radius: 25px;
@@ -261,7 +269,7 @@ $font-family: "Segoe UI", sans-serif;
   border: 1px solid black;
 }
 
-/* Heading + paragraph */
+/* Heading + Paragraph */
 #third-heading-para h1 {
   font-weight: 600;
   font-size: 32px;
@@ -275,7 +283,7 @@ $font-family: "Segoe UI", sans-serif;
   width: 90%;
 }
 
-/* Right side Image */
+/* Right Side Image */
 #third-img {
   flex: 1;
   display: flex;
@@ -289,4 +297,3 @@ $font-family: "Segoe UI", sans-serif;
   border-radius: 20px;
   object-fit: cover;
 }
-
