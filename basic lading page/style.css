@@ -310,7 +310,12 @@ main {
   height: 100%;
   display: flex;
   margin-top: 20px;
-  padding: 20px;
+  padding: 5px;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
 }
 
 #first-card {
@@ -318,8 +323,8 @@ main {
   padding-left: 20px;
   flex-direction: column;
   background-color: #0260ff;
-  height: 350px;
-  width: 20%;
+  height: 315px;
+  width: 19%;
   border-radius: 20px;
   justify-content: space-between;
 }
@@ -363,4 +368,40 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 15px;
   padding: 5px;
+}
+
+.formal_card {
+  display: flex;
+  flex-direction: column;
+  height: 312px;
+  position: relative;
+}
+.formal_card img {
+  height: 315px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.formal_card .overlay-text {
+  position: absolute;
+  top: 84%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.formal_card .overlay-description {
+  position: absolute;
+  top: 89%;
+  bottom: 2%;
+  left: 40%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: white;
+  margin-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.5;
+  white-space: nowrap;
 }/*# sourceMappingURL=style.css.map */
