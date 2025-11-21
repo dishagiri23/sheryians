@@ -381,6 +381,7 @@ main {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20px;
+  width: 236px;
 }
 .formal_card .overlay-text {
   position: absolute;
@@ -404,4 +405,9 @@ main {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   opacity: 0.5;
   white-space: nowrap;
+}
+
+.formal_card h3:nth-child(2) {
+  text-align: center;
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */

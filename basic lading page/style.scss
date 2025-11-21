@@ -433,6 +433,7 @@ $font-family: "Segoe UI", sans-serif;
      height: 315px;
       object-fit: cover;
        border-radius: 20px;
+       width: 236px;
   }
 
 
@@ -461,5 +462,10 @@ $font-family: "Segoe UI", sans-serif;
   white-space: nowrap;
 }
 
+}
+
+.formal_card h3:nth-child(2){
+  text-align: center;
+  width: 90%;
 }
 
