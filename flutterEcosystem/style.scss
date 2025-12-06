@@ -1,5 +1,4 @@
-
-    * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -47,7 +46,7 @@ main {
 
 #view2 {
   padding-bottom: 100px;
-  background: linear-gradient(#efffff, #efc0cf 100%);
+  background: linear-gradient(#f3fcff, #f9e5ee 100%);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -144,14 +143,104 @@ main {
   margin-top: 50px;
 }
 
-
 .line {
-        width: 365px;
-        border-top: 5px solid rgba(128, 128, 128, 0.2);
-        margin-left: 5px;
+  width: 365px;
+  border-top: 5px solid rgba(128, 128, 128, 0.2);
+  margin-left: 5px;
+}
+
+#view4 {
+  width: 100%;
+  padding: 19px;
+}
+
+#main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  #img-div {
+    margin-top: 100px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  #content-div {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+
+    h4 {
+      font-size: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(75, 72, 72);
+      font-weight: 800;
+    }
+
+    h3 {
+      font-size: 50px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    p {
+      font-size: 22px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      opacity: 0.7;
+      font-weight: 400;
+      line-height: 30px;
+    }
+
+    #view4-button {
+      width: 55%;
+      border-radius: 20px;
+      // color: $primary-color;
+      background: transparent;
+      // border: 2px solid $primary-color;
+      font-size: 17px;
+      font-weight: 500;
+      margin-top: 10px;
+      padding: 10px;
+      color: #027dfd;
+      border: 2px solid #0468d7;
+
+      a {
+        text-decoration: none;
+        color: #0468d7;
+      }
+    }
+
+    #view4-button:hover {
+      background-color: #027dfd;
+      border: none;
+
+      a {
+        color: white;
+      }
+    }
+
+    span {
+      padding-left: 30px;
+      display: flex;
+      justify-content: flex-start;
+      gap: 4px;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
       }
 
-
-
-
-
+      i {
+        margin-top: 5px;
+      }
+    }
+  }
+}

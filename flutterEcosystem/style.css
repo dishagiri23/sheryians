@@ -43,7 +43,7 @@ main {
 
 #view2 {
   padding-bottom: 100px;
-  background: linear-gradient(#efffff, #efc0cf 100%);
+  background: linear-gradient(#f3fcff, #f9e5ee 100%);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -135,4 +135,86 @@ main {
   width: 365px;
   border-top: 5px solid rgba(128, 128, 128, 0.2);
   margin-left: 5px;
+}
+
+#view4 {
+  width: 100%;
+  padding: 19px;
+}
+
+#main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#main-div #img-div {
+  margin-top: 100px;
+}
+#main-div #img-div img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#main-div #content-div {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+#main-div #content-div h4 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(75, 72, 72);
+  font-weight: 800;
+}
+#main-div #content-div h3 {
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-div #content-div p {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 30px;
+}
+#main-div #content-div #view4-button {
+  width: 55%;
+  border-radius: 20px;
+  background: transparent;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 10px;
+  color: #027dfd;
+  border: 2px solid #0468d7;
+}
+#main-div #content-div #view4-button a {
+  text-decoration: none;
+  color: #0468d7;
+}
+#main-div #content-div #view4-button:hover {
+  background-color: #027dfd;
+  border: none;
+}
+#main-div #content-div #view4-button:hover a {
+  color: white;
+}
+#main-div #content-div span {
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px;
+}
+#main-div #content-div span a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
+#main-div #content-div span i {
+  margin-top: 5px;
 }/*# sourceMappingURL=style.css.map */
