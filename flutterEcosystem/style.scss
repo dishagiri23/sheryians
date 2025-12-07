@@ -108,7 +108,6 @@ main {
   }
 }
 
-
 #view3 {
   width: 100%;
   padding: 19px;
@@ -232,7 +231,6 @@ main {
       justify-content: flex-start;
       gap: 4px;
 
-      
       a {
         text-decoration: none;
         color: black;
@@ -240,9 +238,232 @@ main {
         font-weight: 500;
       }
 
-
       i {
         margin-top: 5px;
+      }
+    }
+  }
+}
+
+#view5 {
+  width: 100%;
+  padding: 19px;
+  background: linear-gradient(#f6fbfa, #fcfce2 100%);
+  margin-top: 70px;
+
+  #main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    #img2-div {
+      margin-top: 40px;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    #content2-div {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 15px;
+      padding-bottom: 60px;
+
+      h4 {
+        font-size: 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(75, 72, 72);
+        font-weight: 800;
+      }
+
+      h3 {
+        font-size: 45px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 60px;
+      }
+
+      p {
+        font-size: 22px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        opacity: 0.7;
+        font-weight: 400;
+        line-height: 30px;
+      }
+
+      #view5-button {
+        width: 55%;
+        border-radius: 20px;
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 10px;
+        padding: 10px 10px;
+       background-color: #027dfd;
+        border: none;
+
+        a {
+          text-decoration: none;
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+
+
+#view6 {
+  width: 100%;
+  padding: 19px;
+}
+
+#main3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  #img3-div {
+    margin-top: 50px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+
+  #content3-div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+
+    h4 {
+      font-size: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(75, 72, 72);
+      font-weight: 800;
+    }
+
+    h3 {
+      font-size: 50px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 60px;
+    }
+
+    p {
+      font-size: 22px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      opacity: 0.7;
+      font-weight: 400;
+      line-height: 30px;
+    }
+
+    #view6-button {
+      width: 40%;
+      border-radius: 20px;
+      background: transparent;
+
+      font-size: 17px;
+      font-weight: 500;
+      margin-top: 10px;
+      padding: 10px;
+      color: #027dfd;
+      border: 2px solid #0468d7;
+
+      a {
+        text-decoration: none;
+        color: #0468d7;
+      }
+    }
+
+    #view6-button:hover {
+      background-color: #027dfd;
+      border: none;
+
+      a {
+        color: white;
+      }
+    }
+  }
+
+  #view7 {
+  width: 100%;
+  padding: 19px;
+  background: linear-gradient(#f6fbfa, #FCFCE2 100%);
+  margin-top: 70px;
+
+  #main4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    #img4-div {
+      margin-top: 40px;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    #content4-div {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 15px;
+      padding-bottom: 60px;
+
+      h4 {
+        font-size: 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(75, 72, 72);
+        font-weight: 800;
+      }
+
+      h3 {
+        font-size: 45px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 50px;
+      }
+
+      p {
+        font-size: 22px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        opacity: 0.7;
+        font-weight: 400;
+        line-height: 30px;
+      }
+
+      #view7-button {
+        width: 55%;
+        border-radius: 20px;
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 10px;
+        padding: 10px 10px;
+       background-color: #027dfd;
+        border: none;
+         cursor: pointer;
+
+        a {
+          text-decoration: none;
+          color: white;
+
+        }
       }
     }
   }
