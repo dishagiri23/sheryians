@@ -303,7 +303,7 @@ main {
         font-weight: 500;
         margin-top: 10px;
         padding: 10px 10px;
-       background-color: #027dfd;
+        background-color: #027dfd;
         border: none;
 
         a {
@@ -316,14 +316,12 @@ main {
   }
 }
 
-
-
 #view6 {
   width: 100%;
   padding: 19px;
 }
 
-#main3{
+#main3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -340,67 +338,66 @@ main {
   }
 }
 
+#content3-div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
 
-  #content3-div {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 15px;
+  h4 {
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(75, 72, 72);
+    font-weight: 800;
+  }
 
-    h4 {
-      font-size: 20px;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      color: rgb(75, 72, 72);
-      font-weight: 800;
-    }
+  h3 {
+    font-size: 50px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 60px;
+  }
 
-    h3 {
-      font-size: 50px;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 60px;
-    }
+  p {
+    font-size: 22px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 30px;
+  }
 
-    p {
-      font-size: 22px;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      opacity: 0.7;
-      font-weight: 400;
-      line-height: 30px;
-    }
+  #view6-button {
+    width: 40%;
+    border-radius: 20px;
+    background: transparent;
 
-    #view6-button {
-      width: 40%;
-      border-radius: 20px;
-      background: transparent;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 10px;
+    color: #027dfd;
+    border: 2px solid #0468d7;
 
-      font-size: 17px;
-      font-weight: 500;
-      margin-top: 10px;
-      padding: 10px;
-      color: #027dfd;
-      border: 2px solid #0468d7;
-
-      a {
-        text-decoration: none;
-        color: #0468d7;
-      }
-    }
-
-    #view6-button:hover {
-      background-color: #027dfd;
-      border: none;
-
-      a {
-        color: white;
-      }
+    a {
+      text-decoration: none;
+      color: #0468d7;
     }
   }
 
-  #view7 {
+  #view6-button:hover {
+    background-color: #027dfd;
+    border: none;
+
+    a {
+      color: white;
+    }
+  }
+}
+
+#view7 {
   width: 100%;
   padding: 19px;
-  background: linear-gradient(#f6fbfa, #FCFCE2 100%);
+  background: linear-gradient(#f6fbfa, #fcfce2 100%);
   margin-top: 70px;
 
   #main4 {
@@ -455,16 +452,106 @@ main {
         font-weight: 500;
         margin-top: 10px;
         padding: 10px 10px;
-       background-color: #027dfd;
+        background-color: #027dfd;
         border: none;
-         cursor: pointer;
+        cursor: pointer;
 
         a {
           text-decoration: none;
           color: white;
-
         }
       }
     }
+  }
+}
+
+#view8 {
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+
+  #main5 {
+    position: relative;
+    background-color: #042449;
+    overflow: hidden;
+    border-radius: 30px;
+    width: 100%;
+    height: 450px;
+  }
+
+  #media img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 25px;
+
+    h3 {
+      font-size: 45px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 50px;
+      color: white;
+    }
+
+    p {
+      font-size: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      opacity: 0.7;
+      font-weight: 500;
+      line-height: 30px;
+      color: white;
+      padding-left: 70px;
+    }
+
+    button {
+      width: 90%;
+      border-radius: 20px;
+      font-size: 17px;
+      font-weight: 500;
+      margin-top: 15px;
+      padding: 10px 40px;
+      background-color: white;
+      border: none;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: #027dfd;
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+#below {
+  margin-right: 90px;
+
+  span {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+#media {
+  height: 100%;
+
+  img {
+    height: 100%;
   }
 }
