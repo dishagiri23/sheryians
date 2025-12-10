@@ -467,7 +467,7 @@ main {
 
 #view8 {
   width: 100%;
-  padding: 20px;
+  padding: 90px 20px;
   margin-top: 10px;
 
   #main5 {
@@ -555,3 +555,99 @@ main {
     height: 100%;
   }
 }
+
+footer {
+  background-color: #f8f9fa;
+  width: 100%;
+  padding-bottom: 30px;
+
+  #flutter-icon {
+    margin-left: 70px;
+    padding-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  #list {
+    margin-left: 90px;
+    display: flex;
+    // align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 60px;
+
+    ul {
+      list-style: none;
+      line-height: 30px;
+
+      a {
+        text-decoration: none;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
+    }
+  }
+}
+
+ul li:nth-child(1) {
+  font-weight: 600;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 100px;
+
+  a {
+    text-decoration: none;
+
+    i {
+      color: black;
+      font-size: 25px;
+    }
+  }
+}
+.ri-youtube-fill {
+  font-size: 25px;
+}
+
+#footer-line {
+  width: 250px;
+  border-top: 3px solid rgba(128, 128, 128, 0.2);
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+#footer-para {
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 40px;
+
+  p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.6;
+  }
+}
+
+#footer-link{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+
+    a{
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.6;
+    }
+}
+
