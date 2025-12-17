@@ -43,7 +43,7 @@ main {
 
 #view2 {
   padding-bottom: 100px;
-  background: linear-gradient(#f3fcff, #f9e5ee 100%);
+  background: linear-gradient(hsl(189, 64%, 98%), #f9e5ee 100%);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -599,5 +599,66 @@ ul li:nth-child(1) {
     font-size: 80px;
     line-height: 80px;
     width: 80%;
+  }
+  #view3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #view3 #first-div {
+    margin-left: 70px;
+    width: 50%;
+    margin-bottom: 45px;
+  }
+  #view3 #first-div .heading {
+    font-size: 30px;
+  }
+  #view3 #first-div .para {
+    width: 92%;
+  }
+  #view3 #first-div #border-line {
+    width: 95%;
+  }
+  #view3 #first-div .line {
+    width: 90%;
+  }
+  #view3 #second-div {
+    margin-left: 70px;
+    width: 50%;
+    margin-bottom: 27px;
+  }
+  #view3 #second-div #heading2 {
+    font-size: 30px;
+  }
+  #view3 #second-div #second-div-img {
+    margin-top: 90px;
+  }
+  #view3 #second-div .para {
+    width: 92%;
+  }
+  #view3 #second-div #border-line {
+    width: 95%;
+  }
+  #view3 #second-div .line {
+    width: 90%;
+  }
+  #view3 #third-div {
+    margin-left: 70px;
+    width: 50%;
+    margin-top: 15px;
+    margin-right: 40px;
+  }
+  #view3 #third-div #heading3 {
+    font-size: 30px;
+  }
+  #view3 #third-div .para {
+    width: 91%;
+  }
+  #view3 #third-div #border-line {
+    width: 95%;
+  }
+  #view3 #third-div .line {
+    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */
