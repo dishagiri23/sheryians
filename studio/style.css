@@ -4,13 +4,16 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
 
 main {
   width: 100%;
+  padding: 15px;
+  background-color: #121212;
 }
 main #studio-section1 {
   width: 100%;
@@ -26,4 +29,5 @@ main #studio-section1 #main-div #img-div img {
   -o-object-fit: cover;
      object-fit: cover;
   position: center;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
