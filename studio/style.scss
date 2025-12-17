@@ -8,3 +8,28 @@ html, body{
     height: 100%;
     width: 100%;
 }
+
+main{
+    width: 100%;
+
+    #studio-section1{
+        width: 100%;
+
+        #main-div{
+            width: 100%;
+
+            #img-div{
+                width: 100%;
+
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    position: center;
+                    ;
+                }
+            }
+        }
+    }
+}
+
+
