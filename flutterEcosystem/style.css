@@ -175,6 +175,11 @@ main {
   font-weight: 400;
   line-height: 30px;
 }
+#main-div #content-div #button-part {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 #main-div #content-div #view4-button {
   width: 55%;
   border-radius: 20px;
@@ -660,5 +665,77 @@ ul li:nth-child(1) {
   }
   #view3 #third-div .line {
     width: 90%;
+  }
+  #view4 {
+    width: 100%;
+    margin-top: 1px;
+  }
+  #view4 #main-div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 150px;
+  }
+  #view4 #main-div #content-div {
+    margin-left: 100px;
+    width: 40%;
+  }
+  #view4 #main-div #content-div #button-part {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  #view4 #main-div #content-div #button-part #view4-button {
+    width: 50%;
+  }
+  #view4 #main-div #content-div #button-part span {
+    margin-top: 20px;
+  }
+  #view5 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #view5 #main2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  #view5 #main2 #img2-div {
+    margin-left: 100px;
+  }
+  #view5 #main2 #img2-div img {
+    width: 80%;
+  }
+  #view5 #main2 #content2-div {
+    width: 40%;
+    margin-right: 130px;
+  }
+  #view5 #main2 #content2-div #view5-button {
+    width: 40%;
+  }
+  #view6 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #view6 #main3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 100px;
+  }
+  #view6 #main3 #img3-div {
+    width: 50%;
+  }
+  #view6 #main3 #img3-div img {
+    width: 80%;
+  }
+  #view6 #main3 #content3-div {
+    margin-top: 1px;
+    width: 40%;
+    margin-left: 100px;
+  }
+  #view6 #main3 #content3-div #view6-button {
+    width: 40%;
   }
 }/*# sourceMappingURL=style.css.map */
