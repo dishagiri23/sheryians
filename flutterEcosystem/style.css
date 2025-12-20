@@ -738,4 +738,84 @@ ul li:nth-child(1) {
   #view6 #main3 #content3-div #view6-button {
     width: 40%;
   }
+  #view7 {
+    width: 100%;
+    margin-top: 5px;
+  }
+  #view7 #main4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #view7 #main4 #img4-div {
+    width: 50%;
+  }
+  #view7 #main4 #img4-div img {
+    width: 80%;
+  }
+  #view7 #main4 #content4-div {
+    margin-top: 1px;
+    width: 40%;
+  }
+  #view7 #main4 #content4-div #view7-button {
+    width: 40%;
+  }
+  #view8 {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #view8 #main5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90%;
+    position: relative;
+    height: 320px;
+  }
+  #view8 #main5 #media {
+    width: 100%;
+  }
+  #view8 #main5 #media img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #view8 #main5 #text {
+    position: absolute;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  #view8 #main5 #text p {
+    padding-left: 180px;
+  }
+  #view8 #main5 #text #below {
+    display: flex;
+    margin-left: 90px;
+    gap: 5px;
+  }
+  #view8 #main5 #text #below button {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #view8 #main5 #text #below button a {
+    margin-left: 15px;
+  }
+  #view8 #main5 #text #below span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  #view8 #main5 #text #below span a {
+    text-wrap: nowrap;
+  }
 }/*# sourceMappingURL=style.css.map */
