@@ -818,4 +818,59 @@ ul li:nth-child(1) {
   #view8 #main5 #text #below span a {
     text-wrap: nowrap;
   }
+  footer {
+    padding-bottom: 90px;
+  }
+  footer #main-footer #footer-line {
+    width: 90%;
+  }
+  footer #main-footer #upper-footer #flutter-icon {
+    margin-left: 70px;
+    padding-top: 70px;
+    margin-bottom: 100px;
+  }
+  footer #main-footer #span1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer #main-footer #span1 #footer-icon {
+    margin: 0;
+    padding: 0;
+  }
+  footer #main-footer #list {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 150px;
+  }
+  footer #main-footer #list ul:nth-child(3) {
+    margin-top: 35px;
+  }
+  footer #main-footer #icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 90px;
+  }
+  footer #main-footer #footer-para {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 90px;
+    text-wrap: wrap;
+    text-align: start;
+    width: 60%;
+  }
+  footer #main-footer #span2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer #main-footer #span2 #footer-last-list {
+    margin-top: 8px;
+  }
+  footer #main-footer #span2 #footer-last-list #footer-link {
+    margin-right: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
