@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 main {
-  width: 100%;
+  width: 100vw;
   padding: 15px;
   background-color: #121212;
 }
@@ -255,4 +256,109 @@ main #studio-section4 #main-div3 #content-div3 #para3 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   opacity: 0.3;
   font-weight: 100;
+}
+main #studio-section5 {
+  width: 100%;
+}
+main #studio-section5 #our-team #heading4 {
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  width: 90%;
+}
+main #studio-section6 {
+  width: 100%;
+}
+main #studio-section6 #main-card-div {
+  width: 100%;
+  margin-top: 20px;
+}
+main #studio-section6 #main-card-div #first-card {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: center;
+  position: relative;
+}
+main #studio-section6 #main-card-div #first-card #icon-div1 {
+  position: absolute;
+  color: white;
+  /* top: 70px; */
+  font-size: 25px;
+  font-family: serif;
+  right: 20px;
+  top: 30px;
+}
+main #studio-section6 #main-card-div #first-card #icon-div1 i {
+  border: 1px solid #b4b2ad;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgba(225, 217, 217, 0.2);
+  color: #b4b2ad;
+  font-size: 20px;
+}
+main #studio-section6 #main-card-div #first-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+main #studio-section6 #main-card-div #second-card {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: center;
+  position: relative;
+  margin-top: 10px;
+}
+main #studio-section6 #main-card-div #second-card #icon-div2 {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  font-family: serif;
+  right: 20px;
+  top: 30px;
+}
+main #studio-section6 #main-card-div #second-card #icon-div2 i {
+  border: 1px solid #b4b2ad;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgba(225, 217, 217, 0.2);
+  color: #b4b2ad;
+  font-size: 20px;
+}
+main #studio-section6 #main-card-div #second-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+main #studio-section6 #main-card-div #third-card {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: center;
+  margin-top: 10px;
+  position: relative;
+}
+main #studio-section6 #main-card-div #third-card #icon-div3 {
+  position: absolute;
+  color: white;
+  top: 70px;
+  font-size: 25px;
+  font-family: serif;
+  right: 20px;
+  top: 30px;
+}
+main #studio-section6 #main-card-div #third-card #icon-div3 i {
+  border: 1px solid #b4b2ad;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgba(225, 217, 217, 0.2);
+  color: #b4b2ad;
+  font-size: 20px;
+}
+main #studio-section6 #main-card-div #third-card img {
+  width: 100%;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
