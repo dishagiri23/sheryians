@@ -341,6 +341,22 @@ main #studio-section6 #main-card-div #third-card {
   margin-top: 10px;
   position: relative;
 }
+main #studio-section6 #main-card-div #third-card #card-content-div3 {
+  position: absolute;
+  bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+  gap: 15px;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to bottom, #837F72, #61645F);
+}
 main #studio-section6 #main-card-div #third-card #icon-div3 {
   position: absolute;
   color: white;
