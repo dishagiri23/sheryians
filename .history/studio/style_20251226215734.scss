@@ -484,38 +484,13 @@ main {
 
       #img-div4 {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 15px;
 
         img {
           width: 100%;
           object-fit: cover;
           position: center;
           border-radius: 10px;
-        }
-      }
-
-      #content-div4{
-        width: 100%;
-        background-color: #1E1E1E;
-        color: white;
-        margin-top: 10px;
-        padding: 30px;
-        border-radius: 10px;
-
-        p{
-          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          font-size: 20px;
-          line-height: 30px;
-          opacity: 0.3;
-          font-weight: 500;
-        }
-
-        h2{
-          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          font-size: 30px;
-          margin-top: 10px;
-          margin-bottom: 10px;
-          font-weight: 400;
         }
       }
     }
