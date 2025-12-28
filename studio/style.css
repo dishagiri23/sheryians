@@ -298,7 +298,7 @@ main #studio-section6 #main-card-div #first-card #card-content-div1 {
   gap: 15px;
   width: 100%;
   padding: 20px;
-  background: linear-gradient(to bottom, rgba(131, 127, 114, 0.3450980392), #61645F);
+  background: linear-gradient(to bottom, rgba(131, 127, 114, 0.3450980392), #61645f);
   width: 88%;
   border-radius: 5px;
 }
@@ -344,7 +344,7 @@ main #studio-section6 #main-card-div #second-card #card-content-div2 {
   gap: 15px;
   width: 100%;
   padding: 20px;
-  background: linear-gradient(to bottom, rgba(131, 127, 114, 0.3450980392), #61645F);
+  background: linear-gradient(to bottom, rgba(131, 127, 114, 0.3450980392), #61645f);
   width: 88%;
   border-radius: 5px;
 }
@@ -390,7 +390,7 @@ main #studio-section6 #main-card-div #third-card #card-content-div3 {
   gap: 15px;
   width: 100%;
   padding: 20px;
-  background: linear-gradient(to bottom, rgba(131, 127, 114, 0.3450980392), #61645F);
+  background: linear-gradient(to bottom, rgba(131, 127, 114, 0.3450980392), #61645f);
   width: 88%;
   border-radius: 5px;
 }
@@ -420,6 +420,7 @@ main #studio-section7 {
 }
 main #studio-section7 #main-div4 {
   width: 100%;
+  position: relative;
 }
 main #studio-section7 #main-div4 #img-div4 {
   width: 100%;
@@ -434,13 +435,15 @@ main #studio-section7 #main-div4 #img-div4 img {
 }
 main #studio-section7 #main-div4 #content-div4 {
   width: 100%;
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   color: white;
   margin-top: 10px;
-  padding: 30px;
+  padding-top: 20px;
+  padding-left: 40px;
   border-radius: 10px;
 }
 main #studio-section7 #main-div4 #content-div4 p {
+  margin-top: 10px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   line-height: 30px;
@@ -453,4 +456,77 @@ main #studio-section7 #main-div4 #content-div4 h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 400;
+}
+main #studio-section7 #main-div4 #content-div4 span {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+main #studio-section7 #main-div4 #content-div4 span a {
+  text-decoration: none;
+  color: white;
+  width: 15%;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 20px;
+  display: inline;
+}
+main #studio-section7 #main-div4 #content-div4 span a i {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #studio-section7 #main-div4 #content-div4 span p {
+  margin-top: 20px;
+  font-size: 15px;
+}
+main #studio-section8 {
+  width: 100%;
+  background-color: #1E1E1E;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #CEBD63;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+main #studio-section8 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: #121212;
+  opacity: 0.7;
+  font-weight: 400;
+}
+main #studio-section8 h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin-top: 5px;
+  font-weight: 400;
+  width: 50%;
+}
+main #studio-section8 button {
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
