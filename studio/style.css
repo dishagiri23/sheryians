@@ -493,10 +493,9 @@ main #studio-section7 #main-div4 #content-div4 span p {
 }
 main #studio-section8 {
   width: 100%;
-  background-color: #1E1E1E;
   margin-top: 15px;
   border-radius: 10px;
-  background-color: #CEBD63;
+  background-color: #cebd63;
   padding-left: 40px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -529,4 +528,117 @@ main #studio-section8 button {
   justify-content: center;
   gap: 5px;
   font-size: 15px;
+}
+main #studio-section9 {
+  width: 100%;
+  background-color: #1e1e1e;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+main #studio-section9 p {
+  font-size: 20px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.4;
+}
+main #studio-section9 #alvy-icon {
+  margin-right: 90px;
+  margin-top: 80px;
+}
+main #studio-section9 #alvy-icon i {
+  border: 1px solid #b4b2ad;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgba(225, 217, 217, 0.2);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  opacity: 0.4;
+}
+main #studio-section10 {
+  width: 100%;
+  background-color: #1e1e1e;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+main #studio-section10 #list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 60px;
+}
+main #studio-section10 #list li button {
+  margin-top: 14px;
+  background-color: #cebd63;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: none;
+}
+main #studio-section10 #list ul li:nth-child(1) {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-bottom: 10px;
+}
+main #studio-section10 #list ul {
+  list-style: none;
+  line-height: 30px;
+}
+main #studio-section10 #list ul a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 15px;
+  opacity: 0.4;
+  line-height: 40px;
+}
+main footer {
+  width: 100%;
+  background-color: #1e1e1e;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main footer #first-para {
+  width: 90%;
+  word-spacing: 5px;
+  text-align: center;
+  margin-right: 50px;
+  font-size: 13px;
+  line-height: 20px;
+}
+main footer #footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-right: 25px;
+}
+main footer #footer-icon a {
+  text-decoration: none;
+}
+main footer #footer-icon a i {
+  border: 1px solid #b4b2ad;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgba(225, 217, 217, 0.2);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  opacity: 0.4;
 }/*# sourceMappingURL=style.css.map */
