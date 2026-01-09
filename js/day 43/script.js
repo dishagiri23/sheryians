@@ -1,5 +1,4 @@
 const arr = ["KKR", "MI", "RCB", "CSK", "RR"];
-
 const button = document.querySelector("button");
 const teamNameElement = document.getElementById("team-name");
 

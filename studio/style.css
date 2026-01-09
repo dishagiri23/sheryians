@@ -248,6 +248,9 @@ main #studio-section4 #main-div3 #content-div3 #para3 p {
 main #studio-section5 {
   width: 100%;
 }
+main #studio-section5 #our-team #second-find-job {
+  display: none;
+}
 main #studio-section5 #our-team #heading4 {
   width: 100%;
   margin-left: 20px;
@@ -690,10 +693,41 @@ main footer #footer-icon a i {
     display: flex;
     gap: 10px;
   }
-  #studio-section4 #main-div3 #content-div {
+  #studio-section4 #main-div3 #content-div3 {
     width: 100%;
     background-color: #1e1e1e;
     margin-top: 15px;
     border-radius: 10px;
+  }
+  #studio-section5 {
+    width: 100%;
+  }
+  #studio-section5 #our-team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #studio-section5 #our-team #second-find-job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  #studio-section5 #our-team #second-find-job a {
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1.5px solid #333;
+    padding: 15px;
+    background-color: #333;
+  }
+  #studio-section5 #our-team #second-find-job a i {
+    font-size: 20px;
+  }
+  #studio-section5 #our-team #second-find-job p {
+    color: white;
+    white-space: nowrap;
   }
 }/*# sourceMappingURL=style.css.map */
