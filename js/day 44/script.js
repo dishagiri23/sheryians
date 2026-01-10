@@ -9,7 +9,6 @@ const quotes = [
   "Skills matter more than marks",
 ];
 
-// const heading = document.querySelector("h1");
 const btn = document.querySelector("button");
 const main = document.querySelector("main");
 
