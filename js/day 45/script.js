@@ -14,7 +14,8 @@ btn.addEventListener("click", function () {
       btn.disabled = true;
       btn.style.cursor = "not-allowed";
     }, 1000);
-  } else {
+  }
+   else {
     filler.style.width = "0%";
     bar = 0;
   }
