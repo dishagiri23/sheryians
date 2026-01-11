@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(195, 195, 91);
+  min-height: 100vh;
+}
+
+#card {
+  width: 50%;
+  background-color: whitesmoke;
+  padding: 90px;
+  border-radius: 20px;
+}
+#card p {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+#card p span a {
+  color: blue;
+  text-decoration: none;
+}
+#card #processbar {
+  margin-top: 20px;
+  width: 100%;
+  min-height: 2vh;
+  background-color: gray;
+  border-radius: 10px;
+}
+#card #processbar #filler {
+  width: 0%;
+  min-height: inherit;
+  background-color: green;
+  border-radius: 10px;
+  transition: width 1s ease;
+}
+#card button {
+  padding: 15px 20px;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.3s ease;
+}/*# sourceMappingURL=style.css.map */
