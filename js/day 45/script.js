@@ -7,6 +7,7 @@ btn.addEventListener("click", function () {
     filler.style.width = "100%";
     btn.style.transform = "scale(1.05)";
     bar = 1;
+    
     setTimeout(function () {
       btn.innerText = "Downloaded";
       btn.style.opacity = "0.5";
