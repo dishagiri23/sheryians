@@ -7,7 +7,7 @@ btn.addEventListener("click", function () {
     filler.style.width = "100%";
     btn.style.transform = "scale(1.05)";
     bar = 1;
-    
+
     setTimeout(function () {
       btn.innerText = "Downloaded";
       btn.style.opacity = "0.5";
@@ -16,6 +16,7 @@ btn.addEventListener("click", function () {
       btn.style.cursor = "not-allowed";
     }, 1000);
   }
+  
    else {
     filler.style.width = "0%";
     bar = 0;
